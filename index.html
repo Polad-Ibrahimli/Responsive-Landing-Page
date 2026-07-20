@@ -66,9 +66,9 @@
         <section id="gallery" class="gallery section">
             <h1>Layihələrimiz(Qalereya)</h1>
             <div class="pics">
-                <img class="pic-1"src="https://hitimu.academy/wp-content/uploads/2025/06/What-Is-a-Computer.jpg">
-                <img class="pic-2" src="https://www.schoolofit.co.za/wp-content/uploads/2018/02/chris-ried-512801-unsplash-806x393.jpg">
-                <img class="pic-3" src="https://digiproces.com/wp-content/uploads/2025/02/embedded-systems_DigiProces.jpg">
+                <img class="pic-1" alt="picture of a boy working on computer" src="https://hitimu.academy/wp-content/uploads/2025/06/What-Is-a-Computer.jpg">
+                <img class="pic-2" alt="picture of code" src="https://www.schoolofit.co.za/wp-content/uploads/2018/02/chris-ried-512801-unsplash-806x393.jpg">
+                <img class="pic-3" alt="a hardware system" src="https://digiproces.com/wp-content/uploads/2025/02/embedded-systems_DigiProces.jpg">
             </div>
         </section>
 
@@ -79,12 +79,14 @@
                 <form>
                     <div class="form-group">
                         <label for="fname">Ad və Soyad *</label>
-                        <input type="text" id="fname" placeholder="Əli Məmmədov">                   
+                        <input type="text" id="fname" placeholder="Əli Məmmədov">    
+                        <span class="error" id="nameError"></span>               
                     </div>
 
                     <div class="form-group">
                         <label for="femail">Elektron poçt *</label>
                         <input type="text" id="femail" placeholder="mammadov.ali.professional-developer@az">
+                        <span class="error" id="emailError"></span>
                     </div>
 
                     <div class="form-group">
