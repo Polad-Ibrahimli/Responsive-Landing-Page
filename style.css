@@ -166,7 +166,11 @@ form>button{
     padding:8px;
     border-radius:7px;
 }
-
+.form-group>.error{
+    padding:10px;
+    color:red;
+    font-weight: bold;
+}
 footer{
     background-color:black;
     color:white;
