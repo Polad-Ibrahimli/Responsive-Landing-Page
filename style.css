@@ -167,7 +167,7 @@ form>button{
     border-radius:7px;
 }
 .form-group>.error{
-    padding:10px;
+    padding:11px;
     color:red;
     font-weight: bold;
 }
