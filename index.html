@@ -10,102 +10,102 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
+ 
     <header class="header">
-        <div class="Logo">NovaTech</div>
-
-        <button  class="menu-toggle" aria-expanded="false">☰</button>
-        <nav>
-        <ul class="nav-elements">
-            <li><a href="#about">Haqqımızda</a></li>
-            <li><a href="#gallery">Qalereya</a></li>
-            <li><a href="#contact">Əlaqə</a></li>
-        </ul>
+        <div class="header__logo">NovaTech</div>
+ 
+        <button class="header__toggle" aria-expanded="false" aria-label="Toggle navigation menu">☰</button>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a class="header__nav-link" href="#about">Haqqımızda</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#gallery">Qalereya</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#contact">Əlaqə</a></li>
+            </ul>
         </nav>
     </header>
-
+ 
     <main class="main">
-
+ 
         <section class="hero">
-            <div class="hero-contents">
-                <h1>Rəqəmsal dünyada güvənli tərəfdaşınız</h1>
-                <p>Biz biznesiniz üçün ən innovativ web və mobil həlləri sıfırdan hazırlayırıq.</p>
-                <button>Bizimlə əlaqə</button>
+            <div class="hero__content">
+                <h1 class="hero__title">Rəqəmsal dünyada güvənli tərəfdaşınız</h1>
+                <p class="hero__text">Biz biznesiniz üçün ən innovativ web və mobil həlləri sıfırdan hazırlayırıq.</p>
+                <button class="hero__button">Bizimlə əlaqə</button>
             </div>
         </section>
-
-
-        <section id="about" class="about section">
-            <h1>Haqqımızda</h1>
-            <div class="about-paragraphs">
-                <div class="p1">
-                    <h3>Niyə bizi seçməlisiniz?</h3>
-                    <p>10 ildən artıq təcrübəmizlə layihələrinizi vaxtında və yüksək keyfiyyətlə təhvil veririk.
+ 
+ 
+        <section id="about" class="about">
+            <h1 class="about__heading">Haqqımızda</h1>
+            <div class="about__grid">
+                <div class="about__intro">
+                    <h3 class="about__intro-title">Niyə bizi seçməlisiniz?</h3>
+                    <p class="about__intro-text">10 ildən artıq təcrübəmizlə layihələrinizi vaxtında və yüksək keyfiyyətlə təhvil veririk.
                         Sürət, təhlükəsizlik və əlçatanlıq bizim əsas prinsiplərimizdir.</p>
-
-                    <div class="p2">
-                        <h4>Texniki Dəstək Linkimiz: </h4>
-                        <p>https://Novatechsolutions/fdnjfnjngfhewjkfhdncdnsa/
+ 
+                    <div class="about__support">
+                        <h4 class="about__support-title">Texniki Dəstək Linkimiz: </h4>
+                        <p class="about__support-link">https://Novatechsolutions/fdnjfnjngfhewjkfhdncdnsa/
                             ejfjkgrgffdshfbhd//fdfjdsfjkdmfs
                             /nasdjafd/</p>
                     </div>
                 </div>
-
-                <div class="p3">
-                    <h1>150+</h1>
-                    <p>Uğurlu layihə</p>
+ 
+                <div class="about__stat about__stat--projects">
+                    <h1 class="about__stat-number">150+</h1>
+                    <p class="about__stat-label">Uğurlu layihə</p>
                 </div>
-
-                <div class="p4">
-                    <h1>99%</h1>
-                    <p>Müştəri  məmnuniyyəti</p>
+ 
+                <div class="about__stat about__stat--satisfaction">
+                    <h1 class="about__stat-number">99%</h1>
+                    <p class="about__stat-label">Müştəri  məmnuniyyəti</p>
                 </div>
             </div>
         </section>
-
-        <section id="gallery" class="gallery section">
-            <h1>Layihələrimiz(Qalereya)</h1>
-            <div class="pics">
-                <img class="pic-1" alt="picture of a boy working on computer" src="https://hitimu.academy/wp-content/uploads/2025/06/What-Is-a-Computer.jpg">
-                <img class="pic-2" alt="picture of code" src="https://www.schoolofit.co.za/wp-content/uploads/2018/02/chris-ried-512801-unsplash-806x393.jpg">
-                <img class="pic-3" alt="a hardware system" src="https://digiproces.com/wp-content/uploads/2025/02/embedded-systems_DigiProces.jpg">
+ 
+        <section id="gallery" class="gallery">
+            <h1 class="gallery__heading">Layihələrimiz(Qalereya)</h1>
+            <div class="gallery__images">
+                <img class="gallery__image gallery__image--1" alt="picture of a boy working on computer" src="https://hitimu.academy/wp-content/uploads/2025/06/What-Is-a-Computer.jpg">
+                <img class="gallery__image gallery__image--2" alt="picture of code" src="https://www.schoolofit.co.za/wp-content/uploads/2018/02/chris-ried-512801-unsplash-806x393.jpg">
+                <img class="gallery__image gallery__image--3" alt="a hardware system" src="https://digiproces.com/wp-content/uploads/2025/02/embedded-systems_DigiProces.jpg">
             </div>
         </section>
-
-        <section id="contact" class="contact section">
-            <h1>Bizimlə əlaqə</h1>
-
-            <div class="contact-form">
-                <form>
-                    <div class="form-group">
-                        <label for="fname">Ad və Soyad *</label>
-                        <input type="text" id="fname" placeholder="Əli Məmmədov"required aria-required="true">    
-                        <span class="error" id="nameError" aria-live="polite"></span>               
+ 
+        <section id="contact" class="contact">
+            <h1 class="contact__heading">Bizimlə əlaqə</h1>
+ 
+            <div class="contact__form-wrapper">
+                <form class="contact__form">
+                    <div class="contact__group">
+                        <label class="contact__label" for="fname">Ad və Soyad *</label>
+                        <input class="contact__input" type="text" id="fname" placeholder="Əli Məmmədov" required aria-required="true">
+                        <span class="contact__error" id="nameError" aria-live="polite"></span>
                     </div>
-
-                    <div class="form-group">
-                        <label for="femail">Elektron poçt *</label>
-                        <input type="text" id="femail" placeholder="mammadov.ali.professional-developer@az" required aria-required="true">
-                        <span class="error" id="emailError" aria-live="polite"></span>
+ 
+                    <div class="contact__group">
+                        <label class="contact__label" for="femail">Elektron poçt *</label>
+                        <input class="contact__input" type="text" id="femail" placeholder="mammadov.ali.professional-developer@az" required aria-required="true">
+                        <span class="contact__error" id="emailError" aria-live="polite"></span>
                     </div>
-
-                    <div class="form-group">
-                        <label for="fnotes">Mesajınız *</label>
-                        <textarea id="fnotes" rows="8" placeholder="Layihəniz barədə qısa məlumat..." required aria-required="true"></textarea>
-                        <span class="error" id="notesError" aria-live="polite"></span>
+ 
+                    <div class="contact__group">
+                        <label class="contact__label" for="fnotes">Mesajınız *</label>
+                        <textarea class="contact__textarea" id="fnotes" rows="8" placeholder="Layihəniz barədə qısa məlumat..." required aria-required="true"></textarea>
+                        <span class="contact__error" id="notesError" aria-live="polite"></span>
                     </div>
-
-                    <button type="submit">Göndər</button>
-
+ 
+                    <button class="contact__submit" type="submit">Göndər</button>
+ 
                 </form>
             </div>
         </section>
     </main>
-
-    <footer>
-        <p>© 2026 NovaTech. Bütün hüquqlar qorunur. </p>
+ 
+    <footer class="footer">
+        <p class="footer__text">© 2026 NovaTech. Bütün hüquqlar qorunur. </p>
     </footer>
-
+ 
     <script src="./index.js"></script>
 </body>
 </html>
