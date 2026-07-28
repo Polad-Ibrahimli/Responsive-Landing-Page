@@ -14,14 +14,14 @@
     <header class="header">
         <div class="Logo">NovaTech</div>
 
-        <button class="menu-toggle">☰</button>
-
+        <button  class="menu-toggle" aria-expanded="false">☰</button>
+        <nav>
         <ul class="nav-elements">
             <li><a href="#about">Haqqımızda</a></li>
             <li><a href="#gallery">Qalereya</a></li>
             <li><a href="#contact">Əlaqə</a></li>
         </ul>
-
+        </nav>
     </header>
 
     <main class="main">
@@ -79,20 +79,20 @@
                 <form>
                     <div class="form-group">
                         <label for="fname">Ad və Soyad *</label>
-                        <input type="text" id="fname" placeholder="Əli Məmmədov">    
-                        <span class="error" id="nameError"></span>               
+                        <input type="text" id="fname" placeholder="Əli Məmmədov"required aria-required="true">    
+                        <span class="error" id="nameError" aria-live="polite"></span>               
                     </div>
 
                     <div class="form-group">
                         <label for="femail">Elektron poçt *</label>
-                        <input type="text" id="femail" placeholder="mammadov.ali.professional-developer@az">
-                        <span class="error" id="emailError"></span>
+                        <input type="text" id="femail" placeholder="mammadov.ali.professional-developer@az" required aria-required="true">
+                        <span class="error" id="emailError" aria-live="polite"></span>
                     </div>
 
                     <div class="form-group">
                         <label for="fnotes">Mesajınız *</label>
-                        <textarea id="fnotes" rows="8" placeholder="Layihəniz barədə qısa məlumat..."></textarea>
-                        <span class="error" id="notesError"></span>
+                        <textarea id="fnotes" rows="8" placeholder="Layihəniz barədə qısa məlumat..." required aria-required="true"></textarea>
+                        <span class="error" id="notesError" aria-live="polite"></span>
                     </div>
 
                     <button type="submit">Göndər</button>
