@@ -9,9 +9,11 @@ button.addEventListener("click",event=>{
 
     const nameValue=document.getElementById("fname").value;
     const emailValue=document.getElementById("femail").value;
+    const additionalMsg=document.getElementById("fnotes").value;
 
     const nameError=document.getElementById("nameError");
     const emailError=document.getElementById("emailError");
+    const notesError=document.getElementById("notesError");
 
     event.preventDefault();
     if (!emailPattern.test(emailValue)) {
@@ -25,6 +27,9 @@ button.addEventListener("click",event=>{
     }
     else{
         nameError.textContent="";
+    }
+    if(additionalMsg===""){
+        notesError.textContent="This part should not be empty."
     }
 
 })
